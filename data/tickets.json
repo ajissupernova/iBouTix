@@ -1,0 +1,30 @@
+[
+  {
+    "id": "TKT-001",
+    "event_id": "EVT-001",
+    "category": "Regular",
+    "price": 350000,
+    "quota": 800
+  },
+  {
+    "id": "TKT-002",
+    "event_id": "EVT-001",
+    "category": "VIP",
+    "price": 650000,
+    "quota": 150
+  },
+  {
+    "id": "TKT-003",
+    "event_id": "EVT-002",
+    "category": "Festival Pass",
+    "price": 280000,
+    "quota": 1200
+  },
+  {
+    "id": "TKT-004",
+    "event_id": "EVT-003",
+    "category": "Regular",
+    "price": 225000,
+    "quota": 500
+  }
+]

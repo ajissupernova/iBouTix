@@ -1,0 +1,28 @@
+.auth-page { min-height: 100vh; background: #f3eee6; }
+.auth-header { width: min(1160px, calc(100% - 48px)); height: 78px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
+.auth-header > a:last-child { color: var(--muted); font-size: .9rem; }
+.auth-layout { width: min(1000px, calc(100% - 48px)); min-height: calc(100vh - 142px); margin: 0 auto; padding-block: 2rem 3rem; display: grid; grid-template-columns: .9fr 1fr; align-items: center; gap: 5rem; }
+.auth-aside h1 { max-width: 440px; margin: 0 0 1rem; font-size: clamp(2.4rem, 4vw, 3.7rem); }
+.auth-aside > p:last-child { max-width: 380px; color: var(--muted); }
+.auth-card { padding: clamp(1.5rem, 4vw, 2.6rem); border: 1px solid var(--line); border-radius: var(--radius-md); background: var(--surface); }
+.auth-card h2 { margin: 0; font-size: 2rem; }
+.form-intro { margin: .35rem 0 1.5rem; color: var(--muted); font-size: .9rem; }
+.auth-card form { display: grid; gap: .55rem; }
+.auth-card label { margin-top: .45rem; font-size: .88rem; font-weight: 700; }
+.auth-card input { width: 100%; min-height: 48px; padding: .65rem .8rem; border: 1px solid #a89e93; border-radius: var(--radius-sm); background: white; color: var(--ink); }
+.auth-card input::placeholder { color: #655d55; }
+.auth-card input:focus-visible { outline-offset: 1px; }
+.label-row { display: flex; align-items: end; justify-content: space-between; }
+.text-button { min-height: 44px; padding: .25rem .3rem; border: 0; background: transparent; color: var(--rust-dark); font-size: .85rem; font-weight: 700; }
+.auth-submit { width: 100%; margin-top: .75rem; }
+.form-feedback { min-height: 1.5em; margin: .25rem 0 0; color: var(--rust-dark); font-size: .88rem; }
+.form-feedback[data-state="success"] { color: #245b3d; }
+.auth-switch { margin: 1rem 0 0; color: var(--muted); font-size: .9rem; }
+.auth-switch a { color: var(--rust-dark); font-weight: 700; }
+.auth-footer { padding: 1rem 24px; text-align: center; color: var(--muted); font-size: .82rem; }
+@media (max-width: 720px) {
+  .auth-header { width: calc(100% - 36px); height: 68px; }
+  .auth-layout { width: min(100% - 36px, 480px); min-height: auto; grid-template-columns: 1fr; gap: 1.5rem; padding-block: 1rem 2.5rem; }
+  .auth-aside h1 { font-size: clamp(2rem, 9vw, 3rem); }
+  .auth-aside > p:last-child { margin-bottom: 0; }
+}

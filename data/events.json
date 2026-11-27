@@ -1,0 +1,26 @@
+[
+  {
+    "id": "EVT-001",
+    "name": "Senja di Kota",
+    "description": "Konser musik sore di ruang terbuka.",
+    "date": "2026-12-12",
+    "venue": "Lapangan Banteng",
+    "city": "Jakarta"
+  },
+  {
+    "id": "EVT-002",
+    "name": "Ruang Suara Festival",
+    "description": "Festival musik lintas genre.",
+    "date": "2026-12-19",
+    "venue": "Kiara Artha Park",
+    "city": "Bandung"
+  },
+  {
+    "id": "EVT-003",
+    "name": "Nada Setelah Hujan",
+    "description": "Pertunjukan musik dan seni visual.",
+    "date": "2027-01-09",
+    "venue": "Jogja Expo Center",
+    "city": "Yogyakarta"
+  }
+]

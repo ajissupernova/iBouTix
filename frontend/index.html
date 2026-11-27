@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="iBouTix membantu Anda menemukan acara musik dan hiburan.">
+  <title>iBouTix | Tiket untuk momen yang ditunggu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Navigasi utama">
+      <a class="wordmark" href="index.html" aria-label="iBouTix, beranda">iBou<span>Tix</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <div class="nav-links" id="main-nav">
+        <a href="index.html" aria-current="page">Home</a><a href="#events">Explore Events</a><a href="#about">About</a>
+      </div>
+      <div class="nav-actions"><a class="nav-login" href="login.html">Login</a><a class="button button-small" href="register.html">Register</a></div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero page-width">
+      <div class="hero-copy">
+        <p class="eyebrow">MUSIK, MOMEN, DAN ORANG-ORANG FAVORIT</p>
+        <h1>Temukan acara yang akan <em>terus kamu ceritakan.</em></h1>
+        <p class="hero-lede">Cari konser dan festival pilihanmu, lalu simpan rencana seru berikutnya di satu tempat.</p>
+        <a class="button" href="#events">Lihat acara pilihan</a>
+        <p class="hero-note">Acara contoh untuk prototype iBouTix.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Ilustrasi panggung konser dengan sorot lampu amber">
+        <div class="ticket-stub"><span>LIVE / LOCAL</span><strong>Make<br>some<br>noise.</strong><small>YOUR NEXT NIGHT OUT</small></div>
+        <div class="stage-light light-one"></div><div class="stage-light light-two"></div>
+        <div class="stage-line"></div>
+      </div>
+    </section>
+    <section class="events-section page-width" id="events">
+      <div class="section-heading"><div><p class="eyebrow">PILIHAN MINGGU INI</p><h2>Tempat untuk mulai.</h2></div><a class="text-link" href="user/index.html">Semua acara <span aria-hidden="true">↗</span></a></div>
+      <div class="event-grid" data-events></div>
+    </section>
+    <section class="category-band">
+      <div class="page-width category-inner"><div><p class="eyebrow">CARI SESUAI SUASANA</p><h2>Malam kamu, pilihan kamu.</h2></div>
+        <div class="category-list"><a href="#events">Konser <span>Musik live</span></a><a href="#events">Festival <span>Seharian penuh</span></a><a href="#events">Arts &amp; Culture <span>Panggung dan cerita</span></a></div>
+      </div>
+    </section>
+    <section class="about-section page-width" id="about">
+      <p class="eyebrow">TENTANG iBOUTIX</p><h2>Lebih dekat ke acara yang kamu tunggu.</h2>
+      <p>iBouTix adalah prototype platform pemesanan tiket konser, festival musik, dan acara hiburan. Di tahap ini, kamu bisa melihat contoh acara dan mencoba alur halaman pengguna.</p>
+      <a class="text-link" href="register.html">Buat akun prototype <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="page-width footer-inner"><a class="wordmark" href="index.html">iBou<span>Tix</span></a><p>Prototype akademik untuk pengalaman acara yang lebih dekat.</p><a href="login.html">Masuk ke akun</a></div></footer>
+</body>
+</html>

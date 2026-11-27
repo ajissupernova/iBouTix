@@ -1,0 +1,4 @@
+transaction_id,user_id,created_at,status,ticket_id,quantity,unit_price,total
+TRX-2026-001,USR-001,2026-10-24T10:15:00+07:00,success,TKT-001,2,350000,700000
+TRX-2026-002,USR-002,2026-10-25T14:30:00+07:00,success,TKT-003,1,280000,280000
+TRX-2026-003,USR-003,2026-10-26T19:05:00+07:00,success,TKT-004,2,225000,450000

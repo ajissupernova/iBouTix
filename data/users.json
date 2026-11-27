@@ -1,0 +1,20 @@
+[
+  {
+    "id": "USR-001",
+    "name": "Rani Putri",
+    "email": "rani@example.test",
+    "role": "user"
+  },
+  {
+    "id": "USR-002",
+    "name": "Dimas Arga",
+    "email": "dimas@example.test",
+    "role": "user"
+  },
+  {
+    "id": "USR-003",
+    "name": "Nadia Laras",
+    "email": "nadia@example.test",
+    "role": "user"
+  }
+]
