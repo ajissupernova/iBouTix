@@ -1,3 +1,4 @@
+
 # iBouTix
 
 iBouTix adalah prototype platform web untuk menemukan acara musik dan hiburan serta mencoba alur pemesanan tiket. Repository ini menjadi fondasi proyek akademik lintas bahasa untuk tim beranggotakan enam orang.
@@ -60,3 +61,4 @@ First step selesai sebagai prototype visual dan kerangka API. Data event API dib
 Data transaksi dan angka dashboard adalah data simulasi. Jangan pakai sebagai data penjualan nyata.
 
 Lihat `docs/project-overview.md`, `docs/folder-structure.md`, dan `docs/data-format.md` untuk detail awal.
+
